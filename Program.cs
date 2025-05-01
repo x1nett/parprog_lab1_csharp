@@ -5,8 +5,8 @@ namespace Company
 {
     class Program
     {
-        private const int ThreadCount = 8;
-        private const double Step = 0.5;
+        private const int ThreadCount = 4;
+        private const double Step = 1;
 
         static void Main()
         {
