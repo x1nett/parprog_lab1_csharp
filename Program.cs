@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Company
-{
-    class Program
+ class Program
     {
         private const int ThreadCount = 4;
         private const double Step = 1;
@@ -96,5 +94,4 @@ namespace Company
                 }).Start();
             }
         }
-    }
-}
+    }   
