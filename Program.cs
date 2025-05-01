@@ -17,7 +17,7 @@ using System.Threading;
             for (int i = 0; i < ThreadCount; i++)
             {
                 stopSignals[i] = new ManualResetEvent(false);
-                workDurations[i] = random.Next(3000, 10000);
+                workDurations[i] = random.Next(2000, 7000);
 
                 workers[i] = new Worker(i, Step, startSignal, stopSignals[i]);
                 workers[i].Start();
